@@ -1,0 +1,15 @@
+# Judo Academy Environment Variables
+# Copy this file to .env.local and fill in your values
+
+# Supabase Configuration (Required)
+VITE_SUPABASE_URL=https://your-project.supabase.co
+VITE_SUPABASE_ANON_KEY=your-anon-key
+
+# Application Configuration
+VITE_APP_NAME="Academia de Judo"
+VITE_APP_DESCRIPTION="Traditional Judo Academy with modern technology"
+VITE_APP_URL=http://localhost:5173
+
+# Optional: Security Configuration
+# VITE_SESSION_TIMEOUT=3600
+# VITE_MAX_LOGIN_ATTEMPTS=5
